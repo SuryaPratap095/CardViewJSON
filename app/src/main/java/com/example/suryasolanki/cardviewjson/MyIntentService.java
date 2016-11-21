@@ -54,7 +54,6 @@ public class MyIntentService extends IntentService {
         intent.putExtra(EXTRA_PARAM2, param2);
         context.startService(intent);
     }
-
     /**
      * Starts this service to perform action Baz with the given parameters. If
      * the service is already performing a task this action will be queued.
@@ -69,7 +68,6 @@ public class MyIntentService extends IntentService {
         intent.putExtra(EXTRA_PARAM2, param2);
         context.startService(intent);
     }
-
     @Override
     protected void onHandleIntent(Intent intent) {
         if (intent != null) {
@@ -126,7 +124,6 @@ public class MyIntentService extends IntentService {
             }
         }
         publishResults(output.getAbsolutePath(),result);
-
     }
 
     /**
