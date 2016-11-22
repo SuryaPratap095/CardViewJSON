@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(),MyIntentService.class);
 
-                intent.putExtra(MyIntentService.FILENAME,"index.html");
-                intent.putExtra(MyIntentService.URL,"http://www.vogella.com/index.html");
+                intent.putExtra(MyIntentService.FILENAME,"128483.1.jpg");
+                intent.putExtra(MyIntentService.URL,"http://p.imgci.com/db/PICTURES/CMS/128400/128483.1.jpg");
 
                 startService(intent);
                 textStatus.setText("Service Started");
