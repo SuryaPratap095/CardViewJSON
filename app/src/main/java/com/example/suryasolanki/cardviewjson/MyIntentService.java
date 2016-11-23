@@ -125,7 +125,6 @@ public class MyIntentService extends IntentService {
         }
         publishResults(output.getAbsolutePath(),result);
     }
-
     /**
      * Handle action Foo in the provided background thread with the provided
      * parameters.
